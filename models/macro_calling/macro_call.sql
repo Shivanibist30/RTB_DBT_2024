@@ -1,0 +1,1 @@
+{{ unload_to_stage('MY_STAGE') }}
