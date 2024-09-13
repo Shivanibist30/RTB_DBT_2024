@@ -1,3 +1,5 @@
+{{config(materialized='table')}}
+
 with order_totals as (
     select
         o.customer_id,
